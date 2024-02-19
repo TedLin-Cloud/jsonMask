@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	  <Authors>TedLin</Authors>
+	  <Description>
+		  JsonMask 隱碼用
+	  </Description>
+	  <Company></Company>
+	  <Version>1.0.0</Version>
+	  <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+	  <Product>$(AssemblyName)</Product>
+	  <AssemblyName>$(MSBuildProjectName)</AssemblyName>
+	  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	  <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+  </PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+
+</Project>
